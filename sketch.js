@@ -101,8 +101,8 @@ function boxClicked(){
     }
 
     //automatic super factory upgrade to 1000x
-    if(score >= 100000) {
-        score += 1000;
+    if(score > 10000) {
+        score += 100;
         box.addImage(boxKing);
     }
 }
