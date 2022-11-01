@@ -36,7 +36,7 @@ function setup() {
 
 function draw() {
   background("#00A2E8");
-
+  console.log("Update 1 - Glitch with 10,000 boxes fixed")
   if(gamestate === "START"){
     //visibility
     box.visible = false;
